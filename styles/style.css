@@ -243,3 +243,40 @@ header {
     border: 1px solid #ccc;
   }
 }
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .navbar li {
+    width: 100%;
+    border-bottom: 1px solid #ffffff;
+  }
+
+  .main-article {
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-article .image,
+  .main-article .content {
+    width: 100%;
+    padding: 0 10px;
+    height: auto;
+  }
+
+  .articles-container {
+    flex-direction: column;
+    padding: 10px;
+    gap: 15px;
+  }
+
+  .article {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+}
