@@ -242,13 +242,20 @@ header {
   }
 }
 @media (max-width: 480px) {
-  .navbar {
-    flex-direction: column;
+  .navbar li {
+    display: none;
   }
 
-  .navbar li {
-    width: 100%;
-    border-bottom: 1px solid #ffffff;
+  .menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .menu-icon {
+    display: block;
+    width: 30px;
+    height: auto;
   }
 
   .main-article {
